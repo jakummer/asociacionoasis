@@ -1,0 +1,43 @@
+
+.carousel-caption h4{
+    color:map-get($map-color, color-font-h3);
+   text-shadow: 1px 1px 1px rgb(10, 10, 10);
+}
+
+.carousel-caption h6{
+    color:map-get($map-color, color-font1);
+    
+}
+
+.custom-toogler .navbar-toggler-icon{
+    border-color: rgb(255, 255, 255)
+}
+
+#gallery img {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+//"col-lg-4 col-md-6 col-sm-12"
+#gallery img:hover{
+    border:5px solid white;
+    }
+
+ 
+
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  //outline: black;
+  //background-size: 100%, 100%;
+  //border-radius: 50%;
+  //border: 1px solid black;
+  //background-image: none;
+}
+
+.carousel-control-prev-icon {
+    height: 40px;
+    width: 40px;
+
+  }

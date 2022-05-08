@@ -1,0 +1,22 @@
+//$color-main: green;
+//$color-font1:white;
+
+$width-full: 100%;
+
+//aplicando maps
+ $map-color: (
+    color-background: rgb(128, 153, 90),
+    color-font1:white,
+    //color-font-h3:rgb(182, 216, 182),
+    color-font-h3:rgb(84, 168, 84),
+    
+ );
+
+ //aplicando extend
+ %extend_flex {
+    display: flex;
+    justify-content: space-between;
+
+};
+
+ 

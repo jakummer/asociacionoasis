@@ -1,0 +1,22 @@
+body{
+    //background-color: map-get($color_map, color-main);
+   // background-color: map-get($map-color, color-background);
+      
+    a{
+        text-decoration:none;
+            
+    }
+    
+    a:visited{
+        color: rgb(255, 255, 255);
+    }
+    
+    a:active{
+        color: map-get($map-color, color-font1);
+    }
+    
+
+}
+
+
+
